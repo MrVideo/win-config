@@ -21,7 +21,14 @@ function la {
 	Get-ChildItem . -Force
 }
 
+# Shortcut to Code directory
+function code {
+	Set-Location "$Home\Code"
+}
 
+# Shortcut to Perivallon directory
+function pv {
+	Set-Location "$Home\Code\Perivallon"
 }
 
 oh-my-posh init pwsh | Invoke-Expression

@@ -1,0 +1,10 @@
+[user]
+	signingkey = BFD859B1A8826F07
+	name = Mario Merlo
+	email = 18537290+MrVideo@users.noreply.github.com
+[commit]
+	gpgsign = true
+[gpg]
+	program = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe
+[includeIf "gitdir:~/Code/Perivallon/**/"]
+	path = ~/.gitconfig-gitlab

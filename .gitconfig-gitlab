@@ -1,0 +1,5 @@
+[user]
+	email = 25778171-mrvideo@users.noreply.gitlab.com
+	signingkey = 193278EEE1991482
+[init]
+	defaultBranch = master

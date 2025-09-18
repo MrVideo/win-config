@@ -31,4 +31,4 @@ function pv {
 	Set-Location "$Home\Code\Perivallon"
 }
 
-oh-my-posh init pwsh | Invoke-Expression
+oh-my-posh init pwsh --config atomic | Invoke-Expression

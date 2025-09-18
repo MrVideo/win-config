@@ -21,18 +21,7 @@ function la {
 	Get-ChildItem . -Force
 }
 
-# Move to home directory
-Remove-Item Alias:cd
-function cd {
-	param (
-		[string]$Path
-	)
 
-	if ($Path) {
-		Set-Location -Path $Path
-	} else {
-		Set-Location -Path $HOME
-	}
 }
 
 oh-my-posh init pwsh | Invoke-Expression
